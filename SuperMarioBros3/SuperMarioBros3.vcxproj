@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{3b02aa5a-e1f4-4244-908e-9394e150657d}</ProjectGuid>
+    <RootNamespace>SuperMarioBros3</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <CallingConvention>StdCall</CallingConvention>
+      <DisableSpecificWarnings>28251;26812;4005;4244;4018;4553;4715;4101;4805;26495;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;odbccp32.lib;d3d9.lib;d3dx9.lib;dxerr.lib;dsound.lib;dxguid.lib;winmm.lib;dinput8.lib;zlib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimationFrame.h" />
+    <ClInclude Include="AnimationManager.h" />
+    <ClInclude Include="ArrowItemIcon.h" />
+    <ClInclude Include="BasePortal.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="BlockConst.h" />
+    <ClInclude Include="Boomerang.h" />
+    <ClInclude Include="BoomerangBrother.h" />
+    <ClInclude Include="BoomerangBrotherConst.h" />
+    <ClInclude Include="Brick.h" />
+    <ClInclude Include="BrickConst.h" />
+    <ClInclude Include="BrickEffect.h" />
+    <ClInclude Include="BrickFXConst.h" />
+    <ClInclude Include="Camera.h" />
+    <ClInclude Include="CameraConst.h" />
+    <ClInclude Include="Card.h" />
+    <ClInclude Include="CardGift.h" />
+    <ClInclude Include="CCurtain.h" />
+    <ClInclude Include="Cell.h" />
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="CoinConst.h" />
+    <ClInclude Include="CoinEffect.h" />
+    <ClInclude Include="CollisionBox.h" />
+    <ClInclude Include="CollisionBoxConst.h" />
+    <ClInclude Include="Const.h" />
+    <ClInclude Include="CVenus.h" />
+    <ClInclude Include="EffectConst.h" />
+    <ClInclude Include="EffectObject.h" />
+    <ClInclude Include="EmptyBlock.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="EnemyConst.h" />
+    <ClInclude Include="FireFlower.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="GameTimer.h" />
+    <ClInclude Include="GoalEffects.h" />
+    <ClInclude Include="GoalFXConst.h" />
+    <ClInclude Include="Graph.h" />
+    <ClInclude Include="Grass.h" />
+    <ClInclude Include="GreenParaKoopa.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="GridConst.h" />
+    <ClInclude Include="HelpItem.h" />
+    <ClInclude Include="HUD.h" />
+    <ClInclude Include="Index.h" />
+    <ClInclude Include="Intro.h" />
+    <ClInclude Include="IntroScript.h" />
+    <ClInclude Include="IntroTitle.h" />
+    <ClInclude Include="Label.h" />
+    <ClInclude Include="LuigiAuto.h" />
+    <ClInclude Include="MarioAuto.h" />
+    <ClInclude Include="MarioFireBall.h" />
+    <ClInclude Include="FireMario.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameConst.h" />
+    <ClInclude Include="GameKeyEventHandler.h" />
+    <ClInclude Include="GameObject.h" />
+    <ClInclude Include="GameObjectConst.h" />
+    <ClInclude Include="GameObjectTags.h" />
+    <ClInclude Include="GhostPlatform.h" />
+    <ClInclude Include="Gift.h" />
+    <ClInclude Include="Goomba.h" />
+    <ClInclude Include="GoombaConst.h" />
+    <ClInclude Include="GraphicConst.h" />
+    <ClInclude Include="GreenKoopa.h" />
+    <ClInclude Include="GreenKoopaShell.h" />
+    <ClInclude Include="HitEffects.h" />
+    <ClInclude Include="Holdable.h" />
+    <ClInclude Include="IState.h" />
+    <ClInclude Include="ItemInfo.h" />
+    <ClInclude Include="KeyboardManager.h" />
+    <ClInclude Include="KeyEventHandler.h" />
+    <ClInclude Include="Koopa.h" />
+    <ClInclude Include="KoopaConst.h" />
+    <ClInclude Include="KoopaShell.h" />
+    <ClInclude Include="LeafConst.h" />
+    <ClInclude Include="LeafEffect.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MapConst.h" />
+    <ClInclude Include="Mario.h" />
+    <ClInclude Include="MarioCollisionBox.h" />
+    <ClInclude Include="MarioConst.h" />
+    <ClInclude Include="MarioController.h" />
+    <ClInclude Include="MarioControllerConst.h" />
+    <ClInclude Include="MarioMap.h" />
+    <ClInclude Include="MarioMapConst.h" />
+    <ClInclude Include="MarioScript.h" />
+    <ClInclude Include="MarioStateSet.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="Misc.h" />
+    <ClInclude Include="MiscConst.h" />
+    <ClInclude Include="MovingPlatform.h" />
+    <ClInclude Include="MovingPlatformConst.h" />
+    <ClInclude Include="MushroomConst.h" />
+    <ClInclude Include="MushroomEffect.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="NodeMap.h" />
+    <ClInclude Include="ObjectPool.h" />
+    <ClInclude Include="ParaGoombaConst.h" />
+    <ClInclude Include="ParaKoopa.h" />
+    <ClInclude Include="ParaKoopaConst.h" />
+    <ClInclude Include="PhysicsBody.h" />
+    <ClInclude Include="PIcon.h" />
+    <ClInclude Include="Pipe.h" />
+    <ClInclude Include="PipeConst.h" />
+    <ClInclude Include="Piranha.h" />
+    <ClInclude Include="PiranhaConst.h" />
+    <ClInclude Include="Plant.h" />
+    <ClInclude Include="PMeter.h" />
+    <ClInclude Include="PMeterConst.h" />
+    <ClInclude Include="Portal.h" />
+    <ClInclude Include="PSwitch.h" />
+    <ClInclude Include="PSwitchConst.h" />
+    <ClInclude Include="QuestionBlock.h" />
+    <ClInclude Include="QuestionBlockConst.h" />
+    <ClInclude Include="RaccoonTailBox.h" />
+    <ClInclude Include="RaccoonTailConst.h" />
+    <ClInclude Include="RaccoonMario.h" />
+    <ClInclude Include="RectF.h" />
+    <ClInclude Include="RedGoomba.h" />
+    <ClInclude Include="RedKoopa.h" />
+    <ClInclude Include="RedKoopaShell.h" />
+    <ClInclude Include="RedParaGoomba.h" />
+    <ClInclude Include="RedParaKoopa.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Scene.h" />
+    <ClInclude Include="Scene1.h" />
+    <ClInclude Include="SceneConst.h" />
+    <ClInclude Include="SceneGate.h" />
+    <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="ScoreEffect.h" />
+    <ClInclude Include="ScoreFXConst.h" />
+    <ClInclude Include="SmallMario.h" />
+    <ClInclude Include="SolidBox.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SpriteManager.h" />
+    <ClInclude Include="StartItem.h" />
+    <ClInclude Include="StateMachine.h" />
+    <ClInclude Include="SuperMario.h" />
+    <ClInclude Include="TanGoomba.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TextureManager.h" />
+    <ClInclude Include="ThreeAnimation.h" />
+    <ClInclude Include="TileMap.h" />
+    <ClInclude Include="tinystr.h" />
+    <ClInclude Include="tinyxml.h" />
+    <ClInclude Include="Transform.h" />
+    <ClInclude Include="UICamera.h" />
+    <ClInclude Include="UICameraConst.h" />
+    <ClInclude Include="Ultis.h" />
+    <ClInclude Include="VenusConst.h" />
+    <ClInclude Include="VenusFireBall.h" />
+    <ClInclude Include="VenusGreen.h" />
+    <ClInclude Include="VenusRed.h" />
+    <ClInclude Include="WorldItemConst.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Animation.cpp" />
+    <ClCompile Include="AnimationFrame.cpp" />
+    <ClCompile Include="AnimationManager.cpp" />
+    <ClCompile Include="ArrowItemIcon.cpp" />
+    <ClCompile Include="BasePortal.cpp" />
+    <ClCompile Include="Block.cpp" />
+    <ClCompile Include="Boomerang.cpp" />
+    <ClCompile Include="BoomerangBrother.cpp" />
+    <ClCompile Include="Brick.cpp" />
+    <ClCompile Include="BrickEffect.cpp" />
+    <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Card.cpp" />
+    <ClCompile Include="CardGift.cpp" />
+    <ClCompile Include="CCurtain.cpp" />
+    <ClCompile Include="Cell.cpp" />
+    <ClCompile Include="Coin.cpp" />
+    <ClCompile Include="CoinEffect.cpp" />
+    <ClCompile Include="CollisionBox.cpp" />
+    <ClCompile Include="CVenus.cpp" />
+    <ClCompile Include="EffectObject.cpp" />
+    <ClCompile Include="EmptyBlock.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FireFlower.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="GameTimer.cpp" />
+    <ClCompile Include="GoalEffects.cpp" />
+    <ClCompile Include="Graph.cpp" />
+    <ClCompile Include="Grass.cpp" />
+    <ClCompile Include="GreenParaKoopa.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="HelpItem.cpp" />
+    <ClCompile Include="HUD.cpp" />
+    <ClCompile Include="Intro.cpp" />
+    <ClCompile Include="IntroScript.cpp" />
+    <ClCompile Include="IntroTitle.cpp" />
+    <ClCompile Include="Label.cpp" />
+    <ClCompile Include="LuigiAuto.cpp" />
+    <ClCompile Include="MarioAuto.cpp" />
+    <ClCompile Include="MarioFireBall.cpp" />
+    <ClCompile Include="FireMario.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameKeyEventHandler.cpp" />
+    <ClCompile Include="GameObject.cpp" />
+    <ClCompile Include="GhostPlatform.cpp" />
+    <ClCompile Include="Gift.cpp" />
+    <ClCompile Include="Goomba.cpp" />
+    <ClCompile Include="GreenKoopa.cpp" />
+    <ClCompile Include="GreenKoopaShell.cpp" />
+    <ClCompile Include="HitEffects.cpp" />
+    <ClCompile Include="Holdable.cpp" />
+    <ClCompile Include="IState.cpp" />
+    <ClCompile Include="KeyboardManager.cpp" />
+    <ClCompile Include="KeyEventHandler.cpp" />
+    <ClCompile Include="Koopa.cpp" />
+    <ClCompile Include="KoopaShell.cpp" />
+    <ClCompile Include="LeafEffect.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="Mario.cpp" />
+    <ClCompile Include="MarioCollisionBox.cpp" />
+    <ClCompile Include="MarioController.cpp" />
+    <ClCompile Include="MarioMap.cpp" />
+    <ClCompile Include="MarioScript.cpp" />
+    <ClCompile Include="Menu.cpp" />
+    <ClCompile Include="Misc.cpp" />
+    <ClCompile Include="MovingPlatform.cpp" />
+    <ClCompile Include="MushroomEffect.cpp" />
+    <ClCompile Include="Node.cpp" />
+    <ClCompile Include="NodeMap.cpp" />
+    <ClCompile Include="ObjectPool.cpp" />
+    <ClCompile Include="ParaKoopa.cpp" />
+    <ClCompile Include="PhysicsBody.cpp" />
+    <ClCompile Include="PIcon.cpp" />
+    <ClCompile Include="Pipe.cpp" />
+    <ClCompile Include="Piranha.cpp" />
+    <ClCompile Include="Plant.cpp" />
+    <ClCompile Include="PMeter.cpp" />
+    <ClCompile Include="Portal.cpp" />
+    <ClCompile Include="PSwitch.cpp" />
+    <ClCompile Include="QuestionBlock.cpp" />
+    <ClCompile Include="RaccoonTailBox.cpp" />
+    <ClCompile Include="RaccoonMario.cpp" />
+    <ClCompile Include="RedGoomba.cpp" />
+    <ClCompile Include="RedKoopa.cpp" />
+    <ClCompile Include="RedKoopaShell.cpp" />
+    <ClCompile Include="RedParaGoomba.cpp" />
+    <ClCompile Include="RedParaKoopa.cpp" />
+    <ClCompile Include="Scene.cpp" />
+    <ClCompile Include="Scene1.cpp" />
+    <ClCompile Include="SceneGate.cpp" />
+    <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="ScoreEffect.cpp" />
+    <ClCompile Include="SmallMario.cpp" />
+    <ClCompile Include="SolidBox.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
+    <ClCompile Include="StartItem.cpp" />
+    <ClCompile Include="StateMachine.cpp" />
+    <ClCompile Include="SuperMario.cpp" />
+    <ClCompile Include="TanGoomba.cpp" />
+    <ClCompile Include="TextureManager.cpp" />
+    <ClCompile Include="ThreeAnimation.cpp" />
+    <ClCompile Include="TileMap.cpp" />
+    <ClCompile Include="tinystr.cpp" />
+    <ClCompile Include="tinyxml.cpp" />
+    <ClCompile Include="tinyxmlerror.cpp" />
+    <ClCompile Include="tinyxmlparser.cpp" />
+    <ClCompile Include="UICamera.cpp" />
+    <ClCompile Include="Ultis.cpp" />
+    <ClCompile Include="VenusFireBall.cpp" />
+    <ClCompile Include="VenusGreen.cpp" />
+    <ClCompile Include="VenusRed.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SuperMarioBros3.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\Textures\bbox.png" />
+    <Image Include="Resources\Textures\black.png" />
+    <Image Include="Resources\Textures\effect_white_254_x3.png" />
+    <Image Include="Resources\Textures\enemy.png" />
+    <Image Include="Resources\Textures\enemy_x3_white.png" />
+    <Image Include="Resources\Textures\fire-ball-white.png" />
+    <Image Include="Resources\Textures\intro_x3.png" />
+    <Image Include="Resources\Textures\MapSelection(x3).png" />
+    <Image Include="Resources\Textures\MapSelection.png" />
+    <Image Include="Resources\Textures\mario(1).png" />
+    <Image Include="Resources\Textures\mariox3(1).png" />
+    <Image Include="Resources\Textures\misc_x3 (2).png" />
+    <Image Include="Resources\Textures\reward_x3.png" />
+    <Image Include="Resources\Textures\UI_x1.png" />
+    <Image Include="Resources\Textures\UI_x3.png" />
+    <Image Include="small.ico" />
+    <Image Include="SuperMarioBros3.ico" />
+    <Image Include="Super_Mario_Bros_3.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="..\..\..\..\Game\Source code cua Bach\GridTool\uploads\world-1-1-grid.xml" />
+    <Xml Include="Resources\Animations\EnemyAnim.xml" />
+    <Xml Include="Resources\Animations\IntroAnim.xml" />
+    <Xml Include="Resources\Animations\MapSelectionAnim.xml" />
+    <Xml Include="Resources\Animations\MarioAnim.xml" />
+    <Xml Include="Resources\Animations\MiscAnim.xml" />
+    <Xml Include="Resources\Animations\UiAnim.xml" />
+    <Xml Include="Resources\config.xml" />
+    <Xml Include="Resources\root.xml" />
+    <Xml Include="Resources\Scenes\Intro.xml" />
+    <Xml Include="Resources\Scenes\UICamera.xml" />
+    <Xml Include="Resources\Scenes\World1.xml" />
+    <Xml Include="Resources\Sprites\EnemyDB.xml" />
+    <Xml Include="Resources\Sprites\IntroDB.xml" />
+    <Xml Include="Resources\Sprites\MapSelectionDB.xml" />
+    <Xml Include="Resources\Sprites\MarioDB.xml" />
+    <Xml Include="Resources\Sprites\MiscDB.xml" />
+    <Xml Include="Resources\Sprites\UiDB.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maps\Grid\world-1-1-grid.tmx" />
+    <None Include="Resources\Maps\intro-map.tmx" />
+    <None Include="Resources\Maps\world-1-1-map.tmx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

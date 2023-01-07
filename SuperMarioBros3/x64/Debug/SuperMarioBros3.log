@@ -1,0 +1,354 @@
+﻿  Animation.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Animation.cpp(46,12): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Animation.cpp(58,10): warning C4244: '=': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Animation.cpp(78,121): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+  AnimationFrame.cpp
+  AnimationManager.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  ArrowItemIcon.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\ArrowItemIcon.cpp(16,37): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\ArrowItemIcon.cpp(17,38): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\ArrowItemIcon.cpp(47,34): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\ArrowItemIcon.cpp(48,35): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+  BasePortal.cpp
+  Block.cpp
+  Boomerang.cpp
+  BoomerangBrother.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\BoomerangBrother.cpp(71,39): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+  Brick.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Brick.cpp(93,36): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Brick.cpp(168,34): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Brick.cpp(211,16): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  BrickEffect.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Camera.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Camera.cpp(21,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Camera.cpp(22,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Camera.cpp(38,58): warning C4244: '=': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Camera.cpp(44,38): warning C4244: '+=': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Camera.cpp(153,12): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Card.cpp
+  CardGift.cpp
+  CCurtain.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\CCurtain.cpp(17,44): warning C4244: '-=': conversion from 'double' to 'FLOAT', possible loss of data
+  Cell.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Coin.cpp
+  CoinEffect.cpp
+  CollisionBox.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\CollisionBox.cpp(35,24): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\CollisionBox.cpp(36,25): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+  CVenus.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\CVenus.cpp(55,39): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\CVenus.cpp(56,39): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\CVenus.cpp(80,32): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\CVenus.cpp(81,32): warning C4244: '=': conversion from 'double' to 'FLOAT', possible loss of data
+  EffectObject.cpp
+  Generating Code...
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\AnimationManager.cpp(142): warning C4715: 'CAnimationManager::LoadAnimation': not all control paths return a value
+  Compiling...
+  EmptyBlock.cpp
+  Enemy.cpp
+  FireFlower.cpp
+  Font.cpp
+  GameTimer.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  GoalEffects.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GoalEffects.cpp(23,47): warning C4244: '-=': conversion from 'double' to 'FLOAT', possible loss of data
+  Graph.cpp
+  Grass.cpp
+  GreenParaKoopa.cpp
+  Grid.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Grid.cpp(102,25): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Grid.cpp(103,37): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Grid.cpp(104,24): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Grid.cpp(105,38): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  HelpItem.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\HelpItem.cpp(32,39): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\HelpItem.cpp(42,40): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  HUD.cpp
+  Intro.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  IntroScript.cpp
+  IntroTitle.cpp
+  Label.cpp
+  LuigiAuto.cpp
+  MarioAuto.cpp
+  MarioFireBall.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\MarioFireBall.cpp(105,39): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  FireMario.cpp
+  Generating Code...
+  Compiling...
+  Game.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(105,58): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(105,38): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(106,52): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(106,33): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(112,52): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(112,33): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(121,19): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(139,22): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(193,58): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(193,38): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(195,52): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(195,33): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(209,58): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(209,38): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(211,52): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Game.cpp(211,33): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+  GameKeyEventHandler.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+  GameObject.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameObject.cpp(52,28): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameObject.cpp(53,29): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+  GhostPlatform.cpp
+  Gift.cpp
+  Goomba.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Goomba.cpp(94,40): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Goomba.cpp(119,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  GreenKoopa.cpp
+  GreenKoopaShell.cpp
+  HitEffects.cpp
+  Holdable.cpp
+  IState.cpp
+  KeyboardManager.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KeyboardManager.cpp(35,35): error C2065: 'GWL_HINSTANCE': undeclared identifier
+  KeyEventHandler.cpp
+  Koopa.cpp
+  KoopaShell.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KoopaShell.cpp(16,13): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KoopaShell.cpp(17,14): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KoopaShell.cpp(105,38): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KoopaShell.cpp(113,41): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KoopaShell.cpp(241,41): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KoopaShell.cpp(263,38): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\KoopaShell.cpp(272,41): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+  LeafEffect.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\LeafEffect.cpp(62,12): warning C4244: 'initializing': conversion from 'ULONGLONG' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\LeafEffect.cpp(68,26): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\LeafEffect.cpp(82,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  main.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Map.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Mario.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(70,25): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(135,9): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(317,41): warning C4244: '=': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(331,22): warning C4805: '==': unsafe mix of type 'int' and type 'bool' in operation
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(377,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(914,40): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(916,40): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(926,41): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Mario.cpp(1192,36): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  MarioCollisionBox.cpp
+  Generating Code...
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\main.cpp(74): warning C4715: 'LoadFileConfig': not all control paths return a value
+  Compiling...
+  MarioController.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  MarioMap.cpp
+  MarioScript.cpp
+  Menu.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Misc.cpp
+  MovingPlatform.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\MovingPlatformConst.h(6,42): warning C4305: 'initializing': truncation from 'double' to 'float'
+  MushroomEffect.cpp
+  Node.cpp
+  NodeMap.cpp
+  ObjectPool.cpp
+  ParaKoopa.cpp
+  PhysicsBody.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\PhysicsBody.cpp(71,61): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\PhysicsBody.cpp(71,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  PIcon.cpp
+  Pipe.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Pipe.cpp(31,11): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+  Piranha.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Piranha.cpp(47,82): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Piranha.cpp(49,80): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Piranha.cpp(60,58): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Piranha.cpp(85,58): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Plant.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Plant.cpp(8,34): warning C4244: '=': conversion from 'ULONGLONG' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Plant.cpp(20,82): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Plant.cpp(22,80): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Plant.cpp(33,58): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Plant.cpp(58,58): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Plant.cpp(75,39): warning C4244: 'argument': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  PMeter.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\PMeter.cpp(121,28): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Portal.cpp
+  PSwitch.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  QuestionBlock.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\QuestionBlock.cpp(55,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\QuestionBlock.cpp(97,19): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\QuestionBlock.cpp(191,36): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  Generating Code...
+  Compiling...
+  RaccoonTailBox.cpp
+  RaccoonMario.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RaccoonMario.cpp(122,83): warning C4244: '+=': conversion from 'float' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RaccoonMario.cpp(124,23): warning C4018: '>': signed/unsigned mismatch
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RaccoonMario.cpp(177,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RaccoonMario.cpp(314,32): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RaccoonMario.cpp(331,35): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RaccoonMario.cpp(340,34): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RaccoonMario.cpp(345,37): warning C4244: '=': conversion from 'ULONGLONG' to 'DWORD', possible loss of data
+  RedGoomba.cpp
+  RedKoopa.cpp
+  RedKoopaShell.cpp
+  RedParaGoomba.cpp
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\ParaGoombaConst.h(14,44): warning C4305: 'initializing': truncation from 'double' to 'float'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\RedParaGoomba.cpp(76,73): warning C4244: '+=': conversion from 'float' to 'DWORD', possible loss of data
+  RedParaKoopa.cpp
+  Scene.cpp
+  Scene1.cpp
+  Scene4.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  SceneGate.cpp
+  SceneManager.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  ScoreEffect.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  SmallMario.cpp
+  SolidBox.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  Sprite.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Sprite.cpp(15,54): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Sprite.cpp(15,41): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Sprite.cpp(17,49): warning C4244: 'argument': conversion from 'double' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\Sprite.cpp(17,35): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+  SpriteManager.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\SpriteManager.cpp(65,42): warning C4101: 'transcolor': unreferenced local variable
+  StartItem.cpp
+  StateMachine.cpp
+  SuperMario.cpp
+  Generating Code...
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\SpriteManager.cpp(87): warning C4715: 'CSpriteManager::LoadSprite': not all control paths return a value
+  Compiling...
+  TanGoomba.cpp
+  TextureManager.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+  ThreeAnimation.cpp
+  TileMap.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(121,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(122,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(134,10): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(135,10): warning C4244: 'initializing': conversion from 'FLOAT' to 'int', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(171,64): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(171,44): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(232,43): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(232,40): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(233,43): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(233,36): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(1127,40): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(1128,39): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(1129,20): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(1130,20): warning C4244: '=': conversion from 'FLOAT' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(1131,45): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\TileMap.cpp(1131,42): warning C4244: 'argument': conversion from 'int' to 'FLOAT', possible loss of data
+  tinystr.cpp
+  tinyxml.cpp
+  tinyxmlerror.cpp
+  tinyxmlparser.cpp
+  UICamera.cpp
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\GameConst.h(2,1): warning C4005: 'DIRECTINPUT_VERSION': macro redefinition
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\um\dinput.h(48): message : see previous definition of 'DIRECTINPUT_VERSION'
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\UICamera.cpp(16,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\UICamera.cpp(17,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\UICamera.cpp(50,28): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\UICamera.cpp(51,29): warning C4244: 'initializing': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\UICamera.cpp(88,53): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\UICamera.cpp(89,42): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\Admin\source\repos\DirectX-SuperMarioBros3\SuperMarioBros3\SuperMarioBros3\UICamera.cpp(107,81): warning C4244: '+=': conversion from 'float' to 'DWORD', possible loss of data
+  Ultis.cpp
+  VenusFireBall.cpp
+  VenusGreen.cpp
+  VenusRed.cpp
+  WorldMap1.cpp
+  Generating Code...
